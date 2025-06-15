@@ -7,9 +7,8 @@ This project demonstrates a **batch ETL pipeline** using **Apache Airflow** to e
 Key Features:
 - Extracts data from a public **Weather API**
 - Transforms and cleans data using **Pandas**
-- Loads data into **PostgreSQL** (or SQLite)
+- Loads data into **PostgreSQL** 
 - Uses **Airflow DAGs** to schedule and orchestrate ETL jobs
-- Adds logging, error handling, and optional unit testing
 - Uses **Streamlit dashboard** to display results
 
 ---
@@ -21,32 +20,35 @@ Key Features:
 | Orchestration| Apache Airflow          |
 | Source       | Open Weather            |
 | Processing   | Python + Pandas         |
-| Database     | PostgreSQL or SQLite    |
+| Database     | PostgreSQL              |
 | Container    | Docker, Docker Compose  |
-| Visualization| Streamlit (optional)    |
+| Visualization| Streamlit               |
 
 ---
 
 ## 🧱 Project Structure
 ```
-batch-etl-airflow/
-├── scripts/
-│   └── elt.py
-├── weather_etl_dag.py
+├── dashboard/
+│   ├── main.py      
+│   └── Procfile                 
+│
+├── output/
+│   ├── current.csv
+│   └── forecast.csv
+│
+├── dags/
+│   └── weather_etl_dag.py       
+│
+├── etl/
+│   └── etl.py 
+|   └── city.list.json            
+│
+├── .env                        
+├── .gitignore                  # Git ignore file
+├── Dockerfile
+├── README.md                   # This README file
+├── requirements.txt            # Python dependencies
 
-dashboard/
-├── main.py
-├── Procfile
-
-etl/
-├── city.list.json
-├── etl.py
-
-logs/
-
-docker-compose.yml
-Dockerfile
-requirements.txt
 ```
 
 ## 📋 Usage
