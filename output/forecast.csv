@@ -1,0 +1,5 @@
+city_id,city_name,forecast_time,temp,feels_like,temp_min,temp_max,weather,description
+1847963,Atsugi,2025-06-15 06:00:00,27.44,30.51,27.44,28.3,Clouds,broken clouds
+1847963,Atsugi,2025-06-15 09:00:00,27.28,30.37,26.97,27.28,Clouds,broken clouds
+1847963,Atsugi,2025-06-15 12:00:00,25.91,26.8,25.15,25.91,Rain,light rain
+1847963,Atsugi,2025-06-15 15:00:00,25.0,25.85,25.0,25.0,Clear,clear sky

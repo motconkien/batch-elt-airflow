@@ -48,3 +48,8 @@ docker-compose.yml
 Dockerfile
 requirements.txt
 ```
+
+## 📋 Usage
+- Retrieving weather data from OpenWeather API and storing it in PostgreSQL.
+- Airflow orchestrates the ETL pipeline to fetch and process data regularly.
+- Streamlit dashboard reads from PostgreSQL to visualize current and forecast weather data interactively.
