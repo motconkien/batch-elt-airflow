@@ -1,4 +1,4 @@
-# 💾 Batch ETL Pipeline with Airflow (Crypto API Example)
+# 💾 Batch ETL Pipeline with Airflow 
 
 ## 🌟 Overview
 
